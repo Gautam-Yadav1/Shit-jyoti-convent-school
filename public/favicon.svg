@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="52 24 216 260" role="img" aria-label="Shiv Jyoti Convent School emblem">
+  <title>Shiv Jyoti</title>
+  <path
+    d="M160 24 L268 72 L268 200 C268 268 220 318 160 348 C100 318 52 268 52 200 L52 72 Z"
+    fill="#ffffff"
+    stroke="#1e3a5f"
+    stroke-width="6"
+  />
+  <path
+    d="M160 34 L258 78 L258 198 C258 260 214 306 160 334 C106 306 62 260 62 198 L62 78 Z"
+    fill="none"
+    stroke="#f59e0b"
+    stroke-width="3"
+  />
+  <path d="M160 88 C150 110 138 118 138 136 C138 158 148 170 160 176 C172 170 182 158 182 136 C182 118 170 110 160 88 Z" fill="#ef4444"/>
+  <path d="M160 98 C154 114 146 120 146 134 C146 150 152 160 160 164 C168 160 174 150 174 134 C174 120 166 114 160 98 Z" fill="#f97316"/>
+  <path d="M160 108 C156 118 152 122 152 132 C152 144 156 150 160 152 C164 150 168 144 168 132 C168 122 164 118 160 108 Z" fill="#fbbf24"/>
+  <ellipse cx="160" cy="178" rx="18" ry="8" fill="#2563eb"/>
+  <path
+    d="M118 248 L160 232 L202 248 L202 278 C186 272 170 270 160 270 C150 270 134 272 118 278 Z"
+    fill="#ffffff"
+    stroke="#1e3a5f"
+    stroke-width="4"
+    stroke-linejoin="round"
+  />
+  <path d="M160 232 L160 270" stroke="#1e3a5f" stroke-width="3"/>
+</svg>

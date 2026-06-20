@@ -1,0 +1,188 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "faculty": "Faculty",
+    "fees": "Fee Structure",
+    "toppers": "Toppers",
+    "contact": "Contact Us",
+    "admissionOpen": "Admission Open",
+    "menuToggle": "Toggle menu"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "contactInfo": "Contact Info",
+    "followUs": "Follow Us",
+    "govtApproved": "Government Certified",
+    "copyright": "All rights reserved.",
+    "officeHoursLabel": "Office Hours"
+  },
+  "common": {
+    "viewAll": "View All",
+    "learnMore": "Learn More",
+    "contactUs": "Contact Us",
+    "readMore": "Read More",
+    "included": "Included",
+    "optional": "Optional",
+    "perMonth": "per month",
+    "perYear": "per year",
+    "yearsExperience": "years experience",
+    "loading": "Loading...",
+    "ok": "OK"
+  },
+  "home": {
+    "hero": {
+      "badge": "Govt. Certified | NCERT | LKG to Class 8",
+      "intro": "A trusted English-medium school in Soin Kalan, Sheopur — where every child learns, grows, and shines.",
+      "ctaAdmission": "Admission Enquiry",
+      "ctaFaculty": "View Faculty",
+      "photoPlaceholder": "School photo placeholder"
+    },
+    "news": {
+      "label": "Latest News",
+      "cta": "Enquire Now",
+      "ctaShort": "Enquire"
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Us",
+      "subtitle": "Everything parents look for — and children love — in one nurturing campus.",
+      "englishMedium": "English Medium",
+      "englishMediumDesc": "Strong foundation in English communication and literacy from early years.",
+      "qualifiedTeachers": "Qualified & Experienced Teachers",
+      "qualifiedTeachersDesc": "Dedicated educators with proven teaching experience and subject expertise.",
+      "safeEnvironment": "Safe & Nurturing Environment",
+      "safeEnvironmentDesc": "A caring campus where every child feels secure, valued, and supported.",
+      "busFacility": "Bus Pick-up & Drop Facility",
+      "busFacilityDesc": "Safe and reliable transport covering nearby villages and town areas.",
+      "smartClassrooms": "Smart / Digital Classrooms",
+      "smartClassroomsDesc": "Modern learning tools to make lessons engaging and interactive.",
+      "hygienicCampus": "Clean & Hygienic Campus",
+      "hygienicCampusDesc": "Well-maintained classrooms, washrooms, and play areas for healthy learning.",
+      "coCurricular": "Co-curricular Activities",
+      "coCurricularDesc": "Sports, arts, and cultural programs for all-round development.",
+      "govtCurriculum": "NCERT Curriculum",
+      "govtCurriculumDesc": "Structured syllabus aligned with NCERT standards and government best practices."
+    },
+    "classes": {
+      "title": "Classes Offered",
+      "subtitle": "From LKG to Class 8 — a complete primary and middle school journey."
+    },
+    "stats": {
+      "title": "Our Journey in Numbers",
+      "years": "Years of Excellence",
+      "students": "Happy Students",
+      "faculty": "Faculty Members",
+      "passRate": "Pass Percentage"
+    },
+    "toppers": {
+      "title": "Celebrating Our Achievers",
+      "subtitle": "Students who made us proud with outstanding results."
+    },
+    "testimonials": {
+      "title": "What Parents Say",
+      "subtitle": "Placeholder testimonials — replace with real parent feedback.",
+      "quote1": "The teachers are caring and my child loves going to school every day.",
+      "author1": "Parent of Class 3 Student",
+      "quote2": "Safe campus, good discipline, and strong focus on English medium education.",
+      "author2": "Parent of Class 6 Student",
+      "quote3": "Affordable fees with quality education — highly recommended in our area.",
+      "author3": "Parent of UKG Student"
+    },
+    "cta": {
+      "title": "Admissions Open for {sessionYear}",
+      "subtitle": "Enroll your child today and give them the best start in Soin Kalan, Sheopur.",
+      "button": "Apply Now"
+    }
+  },
+  "about": {
+    "title": "About Our School",
+    "subtitle": "Building bright futures in the heart of Soin Kalan, District Sheopur, Madhya Pradesh.",
+    "historyTitle": "Our Story",
+    "history": "Shiv Jyoti Convent School is a government-certified, NCERT-affiliated English-medium institution serving families in Soin Kalan and surrounding areas of District Sheopur, Madhya Pradesh. From LKG to Class 8, we provide a safe, nurturing environment where children develop strong academic foundations, good values, and confidence for life.",
+    "history2": "Our campus is designed to feel welcoming for young learners while maintaining the discipline and quality that parents expect. We combine traditional values with modern teaching methods to help every student reach their full potential.",
+    "missionTitle": "Mission",
+    "mission": "To provide affordable, quality English-medium education that nurtures curiosity, character, and competence in every child from LKG to Class 8.",
+    "visionTitle": "Vision",
+    "vision": "To be the most trusted school in Sheopur district — known for academic excellence, holistic development, and a warm community spirit.",
+    "valuesTitle": "Our Values",
+    "values": "Integrity, respect, discipline, creativity, and inclusivity guide everything we do — in classrooms, on the playground, and in our community.",
+    "leadershipLink": "Meet our Director & Manager on the Faculty page →"
+  },
+  "faculty": {
+    "title": "Our Faculty",
+    "subtitle": "Experienced educators and caring leaders dedicated to your child's success.",
+    "leadership": "Leadership",
+    "teachingStaff": "Teaching Staff",
+    "qualification": "Qualification",
+    "subjects": "Subjects",
+    "classes": "Classes",
+    "experience": "Experience"
+  },
+  "fees": {
+    "title": "Fee Structure",
+    "subtitle": "Transparent fees with facilities included — no hidden charges.",
+    "intro": "Our fee structure is designed to be affordable for families in Soin Kalan and nearby areas. Transport and other add-ons are clearly marked below.",
+    "admissionFee": "Admission Fee",
+    "tuitionFee": "Tuition Fee",
+    "transportFee": "Transport Fee (Bus)",
+    "otherCharges": "Other Charges (Books / Uniform)",
+    "facilitiesIncluded": "Facilities Included",
+    "disclaimer": "Fees are subject to revision. Contact school office for the latest fee structure.",
+    "facilityLabels": {
+      "englishMedium": "English Medium",
+      "qualifiedTeachers": "Qualified Teachers",
+      "safeEnvironment": "Safe Environment",
+      "busFacility": "Bus Facility",
+      "smartClassroom": "Smart Classroom",
+      "hygienicCampus": "Hygienic Campus"
+    }
+  },
+  "toppers": {
+    "title": "Toppers & Scholars",
+    "subtitle": "Celebrating students who achieved outstanding results and brought honour to our school.",
+    "achievement": "Achievement"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We'd love to hear from you. Reach out for admissions, fees, or any questions.",
+    "form": {
+      "name": "Full Name",
+      "namePlaceholder": "Enter your name",
+      "phone": "Phone Number",
+      "phonePlaceholder": "10-digit mobile number",
+      "email": "Email (Optional)",
+      "emailPlaceholder": "your@email.com",
+      "subject": "Subject / Class of Interest",
+      "subjectPlaceholder": "e.g. Admission for Class 1",
+      "message": "Message",
+      "messagePlaceholder": "How can we help you?",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "required": "This field is required",
+      "invalidPhone": "Please enter a valid 10-digit phone number",
+      "invalidEmail": "Please enter a valid email address"
+    },
+    "success": "Thank you! Your message has been sent successfully. We will contact you soon.",
+    "error": "Something went wrong. Please try again or call us directly.",
+    "officeHours": "Office Hours: Mon–Sat, 8:00 AM – 2:00 PM",
+    "chatWhatsApp": "Chat on WhatsApp",
+    "mapTitle": "Find Us on Map",
+    "mapPlaceholder": "Replace mapEmbedUrl in siteConfig with your Google Maps embed URL.",
+    "getInTouch": "Get in Touch"
+  },
+  "whatsapp": {
+    "tooltip": "Chat with us on WhatsApp 👋"
+  },
+  "quickCall": {
+    "call": "Call Now",
+    "whatsapp": "WhatsApp"
+  },
+  "theme": {
+    "light": "Switch to light mode",
+    "dark": "Switch to dark mode"
+  },
+  "language": {
+    "switchToHindi": "Switch to Hindi",
+    "switchToEnglish": "Switch to English"
+  }
+}
