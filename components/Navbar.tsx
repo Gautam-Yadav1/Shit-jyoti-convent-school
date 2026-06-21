@@ -118,7 +118,7 @@ export function Navbar() {
         <div className="flex items-center gap-2">
           <LanguageToggle
             variant={onHeroOverlay ? "hero" : "default"}
-            className="hidden sm:flex"
+            className="flex"
           />
           <ThemeToggle
             className={cn(
@@ -169,6 +169,9 @@ export function Navbar() {
                   </Link>
                 </motion.div>
               ))}
+              <div className="mt-3 flex justify-center">
+                <LanguageToggle className="w-full max-w-xs" />
+              </div>
               <Link href="/contact" onClick={() => setMobileOpen(false)} className="btn-premium-gold mt-3 justify-center">
                 {t("nav.admissionOpen")}
               </Link>
