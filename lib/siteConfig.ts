@@ -1,10 +1,10 @@
 export const siteConfig = {
   schoolName: "Shiv Jyoti Convent School",
   tagline: "Nurturing Young Minds",
-  /** PNG — use on website (navbar, footer, hero, etc.) */
-  logo: "/images/logo.png",
-  /** SVG — use for favicon, browser tab, SEO / social fallback icon */
-  logoSvg: "/logo.svg",
+  /** Main logo file (existing file in `public/images/`) */
+  logo: "/images/logo.jpeg",
+  /** Fallback: use the same raster logo for places that expect an SVG */
+  logoSvg: "/images/logo.jpeg",
   address: {
     line1: "Near Chambal Gramin Bank, Gopalpura Road",
     village: "Soin Kalan",

@@ -96,7 +96,7 @@ export function PremiumHero() {
               <motion.div
                 animate={{ y: [0, -14, 0] }}
                 transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
-                className="relative glass-panel rounded-3xl p-6 md:p-8 shadow-2xl shadow-black/30"
+                className="relative glass-panel shadow-2xl shadow-black/30"
               >
                 {/* SVG for crisp rendering at any size — PNG was low resolution */}
                 <img
@@ -107,15 +107,6 @@ export function PremiumHero() {
                   className="h-52 w-auto object-contain md:h-64 lg:h-72 drop-shadow-2xl"
                   fetchPriority="high"
                 />
-              </motion.div>
-              <motion.div
-                initial={{ opacity: 0, scale: 0.8 }}
-                animate={{ opacity: 1, scale: 1 }}
-                transition={{ delay: 0.8 }}
-                className="absolute -bottom-4 -left-4 glass-panel rounded-2xl px-5 py-3 shadow-xl"
-              >
-                <p className="text-xs font-semibold uppercase tracking-wider text-gold">Soin Kalan</p>
-                <p className="text-sm font-bold text-white">Sheopur, MP</p>
               </motion.div>
             </div>
           </motion.div>

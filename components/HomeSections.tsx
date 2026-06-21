@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import { motion, useInView } from "framer-motion";
 import { fadeUp } from "@/lib/motion";
 import { cn } from "@/lib/utils";
+import { useLanguage } from "@/lib/i18n/LanguageContext";
+import { siteConfig } from "@/lib/siteConfig";
 
 export function AnimatedCounter({ value, suffix = "" }: { value: number; suffix?: string }) {
   const ref = useRef<HTMLSpanElement>(null);
@@ -17,8 +19,10 @@ export function AnimatedCounter({ value, suffix = "" }: { value: number; suffix?
     const step = Math.max(1, Math.ceil(value / (duration / 16)));
     const timer = setInterval(() => {
       start += step;
-      if (start >= value) { setCount(value); clearInterval(timer); }
-      else setCount(start);
+      if (start >= value) {
+        setCount(value);
+        clearInterval(timer);
+      } else setCount(start);
     }, 16);
     return () => clearInterval(timer);
   }, [isInView, value]);
@@ -90,25 +94,40 @@ export function StatBubble({
 export function ClassPill({
   label,
   index,
+  data,
 }: {
   label: string;
   index: number;
+  // bilingual label object { en, hi } used for message generation
+  data?: { en: string; hi: string };
 }) {
+  const { language } = useLanguage();
+  const phone = siteConfig.whatsappNumber?.replace(/[^0-9]/g, "") || "";
+  const classNameForMsg = data ? (language === "hi" ? data.hi : data.en) : label;
+  const message =
+    language === "hi"
+      ? `नमस्ते, मुझे ${classNameForMsg} में दाखिले के बारे में जानकारी चाहिए। धन्यवाद।`
+      : `Namaste, mujhe ${classNameForMsg} mein admission ke baare mein jankari chahiye. Dhanyavaad.`;
+  const waUrl = phone ? `https://wa.me/${phone}?text=${encodeURIComponent(message)}` : "#";
+
   return (
-    <motion.span
+    <motion.a
       initial="hidden"
       whileInView="visible"
       viewport={{ once: true }}
       variants={fadeUp}
       custom={index * 0.2}
       whileHover={{ scale: 1.06, y: -2 }}
+      href={waUrl}
+      target="_blank"
+      rel="noopener noreferrer"
       className={cn(
-        "snap-start shrink-0 cursor-default rounded-xl px-5 py-2.5 font-heading text-sm font-semibold",
+        "snap-start shrink-0 cursor-pointer rounded-xl px-5 py-2.5 font-heading text-sm font-semibold",
         "border border-primary/20 bg-surface text-primary shadow-sm",
         "hover:border-primary hover:bg-primary hover:text-white transition-all duration-300"
       )}
     >
       {label}
-    </motion.span>
+    </motion.a>
   );
 }

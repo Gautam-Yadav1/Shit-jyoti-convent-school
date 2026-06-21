@@ -158,5 +158,5 @@ export default function HomePage() {
 
 function ClassPillWrapper({ label, index }: { label: { en: string; hi: string }; index: number }) {
   const { language } = useLanguage();
-  return <ClassPill label={label[language]} index={index} />;
+  return <ClassPill label={label[language]} data={label} index={index} />;
 }

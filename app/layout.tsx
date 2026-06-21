@@ -32,8 +32,14 @@ export const metadata: Metadata = {
     images: [{ url: siteConfig.logo, width: 512, height: 512, alt: siteConfig.schoolName }],
   },
   icons: {
-    icon: [{ url: siteConfig.logoSvg, type: "image/svg+xml" }, { url: "/favicon.svg", type: "image/svg+xml" }],
+    // Prefer the project logo (raster) as a browser icon and keep the existing SVG fallback.
+    icon: [
+      { url: siteConfig.logo, type: "image/jpeg" },
+      { url: "/favicon.svg", type: "image/svg+xml" },
+    ],
     apple: siteConfig.logo,
+    // Shortcut icon (.ico) is commonly used by browsers — add if you upload one to /public/favicon.ico
+    shortcut: "/favicon.ico",
   },
 };
 
