@@ -102,7 +102,7 @@ export default function HomePage() {
       <section className="section-premium section-alt-bg py-20 md:py-28">
         <div className="mx-auto max-w-7xl px-4 md:px-6 lg:px-8">
           <SectionHeading title={t("home.testimonials.title")} subtitle={t("home.testimonials.subtitle")} />
-          <div className="grid gap-6 md:grid-cols-3">
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
             {testimonials.map((item, i) => (
               <motion.blockquote
                 key={item.quoteKey}
@@ -111,11 +111,13 @@ export default function HomePage() {
                 viewport={{ once: true }}
                 variants={fadeUp}
                 custom={i * 0.4}
-                className="school-card p-7 relative"
+                className="school-card flex flex-col justify-between p-7 relative overflow-hidden"
               >
                 <Quote className="absolute top-5 right-5 h-8 w-8 text-primary/10" />
-                <p className="text-text-primary leading-relaxed italic">&ldquo;{t(item.quoteKey)}&rdquo;</p>
-                <footer className="mt-5 flex items-center gap-3">
+                <p className="text-text-primary leading-relaxed italic pr-8">
+                  &ldquo;{t(item.quoteKey)}&rdquo;
+                </p>
+                <footer className="mt-6 flex items-center gap-3">
                   <div className="h-8 w-8 rounded-full bg-primary/10 flex items-center justify-center">
                     <Heart className="h-4 w-4 text-primary" />
                   </div>

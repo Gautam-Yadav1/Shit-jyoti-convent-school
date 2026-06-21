@@ -123,7 +123,7 @@ export const classFees: ClassFee[] = [
 ];
 
 export const stats = {
-  years: 15,
+  years: 5,
   students: 450,
   faculty: 12,
   passRate: 98,
